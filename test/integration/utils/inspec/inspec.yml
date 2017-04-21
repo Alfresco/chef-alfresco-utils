@@ -1,0 +1,10 @@
+name: utils
+title: InSpec Profile with utilities
+maintainer: Alfresco Software
+copyright: Alfresco Software
+copyright_email: devops@alfresco.com
+license: Apache 2 license
+summary: InSpec Profile with utilities
+version: 1.0.0
+supports:
+  - os-family: redhat
