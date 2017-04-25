@@ -27,7 +27,7 @@ The following platforms are supported and tested with Test Kitchen:
 
 ## Attributes
 
-N/A
+N/A 
 
 ## Usage
 
