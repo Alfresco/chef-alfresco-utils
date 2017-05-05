@@ -20,6 +20,7 @@ suites:
       inspec_tests:
         - name: utils
           git: https://github.com/Alfresco/chef-alfresco-inspec-utils
+          tag: v0.1
     run_list:
       - recipe[alfresco-utils::java]
       - recipe[alfresco-utils::package-repositories]
