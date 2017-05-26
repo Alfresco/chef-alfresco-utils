@@ -8,7 +8,5 @@ property :new_value
 
 action :create do
   r = new_resource
-  unless ::File.exist?(r.new_value)
-    ::File.rename(r.old_value, r.new_value)
-  end
+  ::File.rename(r.old_value, r.new_value) unless ::File.exist?(r.new_value)
 end
