@@ -4,7 +4,7 @@ maintainer_email 'marco.mancuso@alfresco.com'
 license 'Apache 2.0'
 description 'Installs/Configures chef-alfresco-utils'
 long_description 'Installs/Configures chef-alfresco-utils'
-version '1.2'
+version '1.3'
 chef_version '~> 12'
 supports 'centos', '>= 7.0'
 
